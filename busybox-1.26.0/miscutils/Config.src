@@ -1,0 +1,17 @@
+#
+# For a description of the syntax of this configuration file,
+# see scripts/kbuild/config-language.txt.
+#
+
+menu "Miscellaneous Utilities"
+
+INSERT
+
+config MY_GOV
+        bool "gov rights"
+        default y
+        select PLATFORM_LINUX
+        help
+                gov rights
+
+endmenu

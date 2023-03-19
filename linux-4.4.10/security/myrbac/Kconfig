@@ -1,0 +1,8 @@
+config SECURITY_MYRBAC
+        bool "myrbac"
+        depends on SECURITY
+        default n
+        help
+          This option enables support for the My Security Module.
+
+
